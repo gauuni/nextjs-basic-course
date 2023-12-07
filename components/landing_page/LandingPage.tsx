@@ -1,12 +1,16 @@
 import React from "react";
 import TopBar from "./TopBar";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
+import TopSection from "./TopSection";
 
 const LandingPage = () => {
   return (
-    <Box sx={{ bgcolor: "#080809", width: "100vw", height: "100vh" }}>
-      <TopBar />
-    </Box>
+    <Container sx={{ bgcolor: "#080809", width: "100vw", height: "100vh" }}>
+      <Box p={4}>
+        <TopBar />
+        <TopSection />
+      </Box>
+    </Container>
   );
 };
 

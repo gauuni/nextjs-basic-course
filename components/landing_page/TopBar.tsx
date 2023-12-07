@@ -14,7 +14,7 @@ import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 const TopBar = () => {
   const menus = ["How it works", "Service", "Blog", "Support", "About Us"];
   return (
-    <AppBar position="static" sx={{ bgcolor: "transparent", p: 4 }}>
+    <AppBar position="static" sx={{ bgcolor: "transparent" }}>
       <Box
         sx={{
           display: "flex",
