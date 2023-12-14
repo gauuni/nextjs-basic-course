@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "./TopBar";
 import { Box, Container } from "@mui/material";
 import TopSection from "./TopSection";
+import LearnMoreSection from "./LearnMoreSection";
 
 const LandingPage = () => {
   return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <Box p={4}>
         <TopBar />
         <TopSection />
+        <LearnMoreSection />
       </Box>
     </Container>
   );
