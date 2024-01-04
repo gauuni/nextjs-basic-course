@@ -1,9 +1,9 @@
 import type { ReactElement } from "react";
 
-import Layout from "@/components/landing_page/layout";
+import Layout from "@/components/RootLayout";
 import { NextPageWithLayout } from "../../_app";
 import { Box, Button, TextField } from "@mui/material";
-import AboutNestedLayout from "@/components/landing_page/AboutNestedLayout";
+import AboutNestedLayout from "@/components/AboutNestedLayout";
 
 const Contact: NextPageWithLayout = () => {
   return (

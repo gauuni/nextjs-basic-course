@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "./landing_page/Footer";
 import { Box, Stack } from "@mui/material";
 
 export default function AboutNestedLayout({

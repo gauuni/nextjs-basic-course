@@ -7,8 +7,18 @@ import LandingPage from "@/components/landing_page/LandingPage";
 import { Container } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
+import { getCookie } from "cookies-next";
+import { useRouter } from "next/router";
+import { redirect } from "next/navigation";
 
 export default function Home() {
+  // const isLogin = getCookie("isLogin");
+  // const router = useRouter();
+
+  // if (!isLogin) {
+  //   return redirect("/login");
+  // }
+
   return (
     <>
       <Head>
@@ -17,7 +27,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <LandingPage />
+      <LandingPage></LandingPage>
     </>
   );
 }
