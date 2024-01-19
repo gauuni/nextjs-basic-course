@@ -20,8 +20,10 @@ import useSWR from "swr";
 import MovieCard from "@/components/movie/MovieCard";
 import config from "@/config";
 import { PlayArrow } from "@mui/icons-material";
+import axios from "axios";
 
 const Detail: NextPageWithLayout = () => {
+  console.log(axios.defaults.headers.common)
   const router = useRouter();
   const id = router.query.id;
   const { data, isLoading, error } = useSWR<Movie>(
@@ -30,6 +32,8 @@ const Detail: NextPageWithLayout = () => {
   const teaserVideo = data?.videos.results.find(
     (video) => video.name == "Teaser"
   );
+
+  
 
   // console.log(teaserKey);
 

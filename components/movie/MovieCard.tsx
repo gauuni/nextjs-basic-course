@@ -21,7 +21,6 @@ type Props = {
 
 const MovieCard = ({ movie }: Props) => {
   const router = useRouter();
-  console.log(movie.poster_path);
   return (
     <Card
       sx={{ minHeight: "500px" }}

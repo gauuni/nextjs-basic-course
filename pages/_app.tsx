@@ -18,7 +18,9 @@ const theme = createTheme({
   }
 });
 
-
+axios.defaults.baseURL = process.env.NEXT_PUBLIC_TMDB_API_URL;
+axios.defaults.headers.common["Authorization"] =
+  "Bearer " + process.env.NEXT_PUBLIC_ACCESS_TOKEN;
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
@@ -28,9 +30,7 @@ type AppPropsWithLayout = AppProps & {
 };
 
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
-  axios.defaults.baseURL = "https://api.themoviedb.org/3/";
-  axios.defaults.headers.common["Authorization"] =
-  "Bearer " + process.env.ACCESS_TOKEN;
+
 
   const getLayout = Component.getLayout ?? ((page) => page);
   return getLayout(

@@ -21,6 +21,7 @@ import { getCookie, setCookie, deleteCookie } from "cookies-next";
 import { useRouter } from "next/router";
 
 function LoggedInAvatar(props: { data: User }) {
+  
   const avatar_path = props.data.avatar.tmdb.avatar_path;
   const username = props.data.username;
   const router = useRouter();
@@ -90,6 +91,7 @@ function LoggedInAvatar(props: { data: User }) {
 }
 
 function NotLoggedInAvatar() {
+  const baseURL = process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000"
   return (
     <Person
       onClick={() => {
@@ -97,7 +99,7 @@ function NotLoggedInAvatar() {
           .get<RequestTokenResponse>("authentication/token/new")
           .then((res) =>
             window.open(
-              `https://www.themoviedb.org/authenticate/${res.data.request_token}?redirect_to=${process.env.BASE_URL}/movie/authorize`,
+              `https://www.themoviedb.org/authenticate/${res.data.request_token}?redirect_to=${baseURL}/movie/authorize`,
               "_blank",
               "noopener,noreferrer"
             )

@@ -10,10 +10,6 @@ import MovieCard from "@/components/movie/MovieCard";
 import axios from "axios";
 
 const HomeDetail: NextPageWithLayout = () => {
-  axios.defaults.baseURL = "https://api.themoviedb.org/3/";
-axios.defaults.headers.common["Authorization"] =
-  "Bearer " + "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NzYxZTM4YjM5NTMwYjU3OTc3MzlkYzBhOGRmN2UwNSIsInN1YiI6IjU4OTdlOWYzYzNhMzY4NzcwZTAwMzU3MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.86yfgjl1aDWXL3e09Ab2VgrE_6NJ_USUA2CneAkyQBA";
-
   const { data, isLoading, error } = useSWR<MovieList>("/movie/upcoming");
   const router = useRouter();
   const [searchResults, setSearchResults] = useState<Movie[]>(
