@@ -1,21 +1,12 @@
-/** @type {import('next').NextConfig} */
+/**
+* @type {import('next').NextConfig}
+*/
 const nextConfig = {
-  reactStrictMode: true
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/movie/home",
-  //       missing: [
-  //         {
-  //           type: "cookie",
-  //           key: "session_id"
-  //         }
-  //       ],
-  //       destination: "/login",
-  //       permanent: false
-  //     }
-  //   ];
-  // }
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: './',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
