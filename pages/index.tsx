@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import Image from "next/image";
 import LandingPage from "@/components/landing_page/LandingPage";
 // import styles from '@/styles/Home.module.css'
 import { Container } from "@mui/material";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 import { getCookie } from "cookies-next";
 import { useRouter } from "next/router";
 import { redirect } from "next/navigation";
