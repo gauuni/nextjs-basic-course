@@ -97,7 +97,7 @@ function NotLoggedInAvatar() {
           .get<RequestTokenResponse>("authentication/token/new")
           .then((res) =>
             window.open(
-              `https://www.themoviedb.org/authenticate/${res.data.request_token}?redirect_to=http://localhost:8080/movie/authorize`,
+              `https://www.themoviedb.org/authenticate/${res.data.request_token}?redirect_to=${process.env.BASE_URL}/movie/authorize`,
               "_blank",
               "noopener,noreferrer"
             )
