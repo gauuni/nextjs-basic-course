@@ -1,0 +1,35 @@
+{
+    "title": "About the advice to lose weight.",
+    "point":{
+        "title": "[Point]",
+        "content": "The advice to lose weight is.<br>The advice is displayed in three categories: \"On target\", \"Keep going\", and \"Be attention\".",
+        "on_target": "<i><b>On target</b></i>: You are leading a good lifestyle that meets the requirements to lose weight.",
+        "keep_going": "<i><b>Keep going</b></i>: you are getting closer to the lifestyle you need to lose weight<br>You may want to increase your steps and exercise intensity a little more, while being careful not to overeat.",
+        "be_attention": "<i><b>Be attention</b></i>: lifestyle habits that may lead to weight gain have been identified.<br>Try to improve your lifestyle by being aware of the behaviors that will help you lose weight."
+    },
+    "advice1": "Switch between the three types depending on the cumulative daily lifestyle results synced to the app.<br>It switches automatically. So, once the advice changes to \"Be attention\",<br>By improving your daily lifestyle, you can expect to lose 1 kg of weight and improve your abdominal circumference by 1 cm per month by showing up as \"On target\" for about 30 days.",
+    "advice2": "Do your best to get your daily display to \"On target\".",
+    "item_of_advice":{
+        "title": "[Each item of advice on how to lose weight]",
+        "content": "Number of steps: 10,000 steps<br>Amount of activity: 60 minutes or more<br>Exercise intensity: 4.0 and above<br>Wear rate: 80% or more<br>Carbohydrate intake: less than 150g"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

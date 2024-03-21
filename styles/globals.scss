@@ -1,0 +1,64 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  // height: 100vh;
+  /* overflow-x: hidden; */
+  white-space: pre-wrap;
+  /* padding-top: 100px; */
+  scroll-padding-top: 100px;
+  @extend .m-2;
+}
+
+.legend-full {
+  table {
+    @extend .w-100;
+    // @extend .table;
+    @extend .table-bordered;
+    @extend .border-black;
+  }
+}
+
+.legend-full table tr {
+  @extend .p-1;
+}
+
+.legend-full table td {
+  @extend .p-1;
+}
+
+.title {
+  @extend .fs-3;
+  @extend .fw-bold;
+  @extend .mb-4;
+}
+
+.content-block {
+  @extend .d-grid;
+  @extend .gap-4;
+}
+
+$spacer: 0.25rem;
+$spacers: (
+  0: 0,
+);
+
+@for $i from 1 through 60 {
+  $spacers: map-merge($spacers,
+      ($i: (
+        $i * $spacer,
+      ),
+    )
+  );
+}
+
+@import 'bootstrap';

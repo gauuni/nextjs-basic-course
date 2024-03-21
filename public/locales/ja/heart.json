@@ -1,0 +1,21 @@
+{
+  "title": "心拍数",
+  "average": "（平均値）",
+  "avg_radar": "平均⼼拍数",
+  "min_radar": "最小",
+  "max_radar": "最大",
+  "desk_work_time_radar": "デスクワーク時間",
+  "desk_work_time": "デスクワーク時間",
+  "heart_unit" : "bpm",
+  "heart_rate" : "心拍数",
+  "avg" : "平均⼼拍数",
+  "min" : "最小",
+  "max" : "最大",
+  "desk_work_time_unit" : "分", 
+  "heart_rate_desk_work_time" : "デスクワーク中\n心拍数",
+  "avg_heart_rate_desk_work_time" : "デスクワーク中\n平均心拍数",
+  "avg_desk_work_time" : "デスクワーク時間",
+  "po_data" : "所属する\nグループ",
+  "your_data" : "あなたの\nデータ",
+  "gold_data" : "健康な\nグループ"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "About the Air Quality Levels",
+  "head": {
+    "aqi": "AQI",
+    "level": "Air Pollution Level",
+    "health_implications": "Health Implications",
+    "cautionary_statement": "Cautionary Statement (for PM2.5)"
+  },
+  "level": {
+    "good": {
+      "aqi": "0 - 50",
+      "level": "Good",
+      "health_implications": "Air quality is considered satisfactory, and air pollution poses little or no risk",
+      "cautionary_statement": "None"
+    },
+    "moderate": {
+      "aqi": "51 - 100",
+      "level": "Moderate",
+      "health_implications": "Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.",
+      "cautionary_statement": "Active children and adults, and people with respiratory disease, such as asthma, should limit prolonged outdoor exertion."
+    },
+    "unhealthy_sensitive": {
+      "aqi": "101 - 150",
+      "level": "Unhealthy for Sensitive Groups",
+      "health_implications": "Members of sensitive groups may experience health effects. The general public is not likely to be affected.",
+      "cautionary_statement": "Active children and adults, and people with respiratory disease, such as asthma, should limit prolonged outdoor exertion."
+    },
+    "unhealthy": {
+      "aqi": "151 - 200",
+      "level": "Unhealthy",
+      "health_implications": "Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects",
+      "cautionary_statement": "Active children and adults, and people with respiratory disease, such as asthma, should avoid prolonged outdoor exertion; everyone else, especially children, should limit prolonged outdoor exertion"
+    },
+    "very_unhealthy": {
+      "aqi": "201 - 300",
+      "level": "Very Unhealthy",
+      "health_implications": "Health warnings of emergency conditions. The entire population is more likely to be affected.",
+      "cautionary_statement": "Active children and adults, and people with respiratory disease, such as asthma, should avoid all outdoor exertion; everyone else, especially children, should limit outdoor exertion."
+    },
+    "hazardous": {
+      "aqi": "300+",
+      "level": "Hazardous",
+      "health_implications": "Health alert: everyone may experience more serious health effects",
+      "cautionary_statement": "Everyone should avoid all outdoor exertion"
+    }
+  }
+}

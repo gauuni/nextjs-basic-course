@@ -1,0 +1,45 @@
+{
+  "title": "Manual measure",
+  "subtitle": "Depending on the device you are setting up, please select the device below and follow the manual.",
+  "jyoupro": [
+    {
+      "title": "Turn on the mode to measure your heart rate.",
+      "steps": [
+        "From the watch display screen of your JYouPro device, tap the button at the bottom four times. <i>(1)</i>",
+        "When the training screen appears, press and hold for a few seconds.<i>(2)</i>",
+        "The following screen will appear.<i>(3)</i>",
+        "Tapping the button several times will bring up the following screen of four modes.<i>(4)</i>",
+        "Press and hold a favorite mode for 2 or 3 seconds, and after 3 counts are displayed,<i>(5)</i>",
+        "The mode for measuring the heart rate will change to on. <i>(6)</i> You can participate in a heart rate contest now."
+      ]
+    },
+    {
+      "title": "To turn off the heart rate measurement mode.",
+      "steps": [
+        "To turn off, press and hold screen <i>(1)</i> for 2 or 3 seconds, and after 3 counts are displayed, the heart rate measurement mode is turned off."
+      ]
+    }
+  ],
+
+  "vitalgain_band": [
+    {
+      "title": "Turn on the mode to measure your heart rate.",
+      "steps": [
+        "From the Vitalgain band device's clock display screen, tap the screen twice. <i>(1)</i>",
+        "Slide once from the top of the screen to the bottom of the shining screen with your finger. <i>(2)</i>",
+        "Tap the yellow icon on the top of the training screen to display the training screen. <i>(3)</i>",
+        "The following screen will appear. <i>(4)</i>",
+        "Tapping several times from the top to the bottom of the yellow marked screen will bring up the following screen with a heart symbol on it. <i>(5)</i>",
+        "Once tapped, the heart icon will turn all pink and the device will vibrate, the mode to measure heart rate will change to on. <i>(6)</i><br>You can participate in a heart rate contest now."
+      ],
+      "subtitle": "<strong><i>Note: Please note that the Vitalgain band measures once every 5 minutes.</i></strong>"
+    },
+    {
+      "title": "Turn off the mode for measuring heart rate.",
+      "steps": [
+        "To turn off, tap <i>(1)</i> once on the screen.",
+        "Heart rate measurement mode is turned off. <i>(2)</i>"
+      ]
+    }
+  ]
+}

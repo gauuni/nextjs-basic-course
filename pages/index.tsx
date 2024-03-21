@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import LandingPage from "@/components/landing_page/LandingPage";
 // import styles from '@/styles/Home.module.css'
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 
 // const inter = Inter({ subsets: ["latin"] });
 import { getCookie } from "cookies-next";
@@ -27,6 +27,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Box component="img" src="https://firebasestorage.googleapis.com/v0/b/testingproject-44d42.appspot.com/o/route-segments-to-path-segments.jpeg?alt=media&token=bf140c56-8a43-4f87-9cf0-d3f06f8e1db8" width={1000} />
+
+      <Box component="img" src="https://drive.google.com/uc?id=12EK5wGccf_5ZBeQFiuLc5yZRBRAvRhWj&export=open" />
       <LandingPage></LandingPage>
     </>
   );

@@ -1,0 +1,34 @@
+{
+  "previous_night": {
+    "title": "Previous Night",
+    "content": "How you slept last night can have a significant impact on your readiness to perform during the day.<br><br>Getting enough good quality sleep is necessary for physical recovery, memory and learning, all part of your readiness to perform.<br><br>For a maximum positive contribution to your Readiness Score, your Sleep Score needs to be above 88%, and at the high end of your normal range."
+  },
+  "body_temperature": {
+    "content": "Body temperature variations can reveal a lot about your recovery and overall health. It's normal for body temperature to rise after eating, drinking or exercising late, or when sleeping in a warm environment. A sudden rise can also indicate that you're coming down with something. When this happens, it's a good idea to take your temperature with a thermometer, and allow yourself to rest.<br><br>If you track your menstrual cycle, you may spot monthly patterns in your body temperature Trend view. It's common for body temperature to fall during the first half of the menstrual cycle, and rise slightly during the second half.<br><br><b>How Oura measures your body temperature variation</b><br><br>Oura measures your body temperature while you sleep. It sets the baseline for your normal temperature during the first couple of weeks, and adjusts it if needed as more data is collected. Variations are shown in relation to your baseline, represented by 0.0 in the body temperature deviation graph.",
+    "title": "Body Temperature"
+  },
+  "resting_heart_rate": {
+    "title": "安静時心拍数",
+    "content": "★睡眠中（安静時心拍数　RHR) の心拍数を計測します。<br>回復状況の信頼性の高い測定値です。<br>成人の標準的なRHRは40 ~ 100BPMの範囲です。<br>一般的に、アルコールを摂取しているときやストレスが高いときは高くなり、コンディション整っている状態や、体が回復しているときは低くなります。"
+  },
+  "sleep_balance": {
+    "title": "Sleep Balance",
+    "content": "Sleep Balance shows if the sleep you've been getting over the past two weeks is in balance with your needs. Typically adults need 7-9 hours of sleep a night to stay healthy, alert, and to perform at their best both mentally and physically.<br><br>Insufficient sleep can eventually lead to sleep debt. Paying back sleep debt and rebuilding sleep balance takes several nights of good sleep."
+  },
+  "recovery_index": {
+    "content": "Recovery Index measures how long it takes for your resting heart rate to stabilize during the night.<br><br>A sign of very good recovery is that your resting heart rate stabilizes during the first half of the night, at least 6 hours before you wake up. leaving your body time to recover for the next day.<br><br>Alcohol, a heavy meal before bed or late exercise speed up your metabolism and keep your heart rate elevated, delaying your recovery and a your sleep needs.",
+    "title": "Recovery Index"
+  },
+  "readiness": {
+    "title": "Readiness",
+    "content": "Ranging from 0-100, the readiness score helps you identify the days that are ideal for challenging yourself, and those that are better for taking it easy."
+  },
+  "previous_day_activity": {
+    "title": "Previous Day Activity",
+    "content": "Your level of physical activity yesterday is one of the key contributors to your Readiness Score.<br><br>When the contributor is at 100%, you'll know you've balanced your need for activity and rest, and substituted a nice amount of inactive time with low activity.<br><br>An exceptionally high amount of inactivity or activity leads to a drop in your Readiness Score. If your readiness is low due to intense training and increased Activity Burn, taking time to recover can pay off as improved fitness."
+  },
+  "activity_balance": {
+    "title": "Activity Balance",
+    "content": "Activity Balance measures how your activity level over the past days is affecting your readiness to perform.<br><br>A full bar indicates that you've been active, but kept from training at your maximum capacity. This has boosted your recovery and helped build up your energy levels.<br><br>While easier days can have a positive effect on your readiness level, challenging your body every now and then by increasing your training volumes helps maintain and develop your physical capacity in the long run."
+  }
+}
